@@ -61,6 +61,6 @@
 - Consumes: verified local repository on branch `main`
 - Produces: public GitHub repository `FZ010619/ai-prompts-library`
 
-- [ ] Commit all repository files on `main`.
-- [ ] Create the public GitHub repository and push `main`.
-- [ ] Verify remote URL, clean working tree, default branch, and public visibility.
+- [x] Commit all repository files on `main`.
+- [x] Create the public GitHub repository and push `main`.
+- [x] Verify remote URL, clean working tree, default branch, and public visibility.
