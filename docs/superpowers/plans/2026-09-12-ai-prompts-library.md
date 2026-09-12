@@ -29,10 +29,10 @@
 - Consumes: a repository root containing `README.md` and `prompts/*.md`
 - Produces: `missing_prompt_links(root: Path) -> list[str]` and CLI exit code `0` when complete, `1` when entries are missing
 
-- [ ] Write unit tests proving a complete index passes and a missing prompt link is reported.
-- [ ] Run `python -m unittest discover -s tests -v` and confirm failure because the checker module does not exist.
-- [ ] Implement the minimum checker.
-- [ ] Re-run the unit tests and confirm they pass.
+- [x] Write unit tests proving a complete index passes and a missing prompt link is reported.
+- [x] Run `python -m unittest discover -s tests -v` and confirm failure because the checker module does not exist.
+- [x] Implement the minimum checker.
+- [x] Re-run the unit tests and confirm they pass.
 
 ### Task 2: Prompt catalog and automation
 
@@ -47,10 +47,10 @@
 - Consumes: the two supplied source Markdown files
 - Produces: a browsable README catalog and CI validation on pushes and pull requests
 
-- [ ] Copy both source prompts into stable repository paths without substantive changes.
-- [ ] Add both prompt links and concise purpose descriptions to `README.md`.
-- [ ] Add a GitHub Actions workflow that runs unit tests and the repository checker.
-- [ ] Run `python -m unittest discover -s tests -v` and `python scripts/check_readme_index.py`.
+- [x] Copy both source prompts into stable repository paths without substantive changes.
+- [x] Add both prompt links and concise purpose descriptions to `README.md`.
+- [x] Add a GitHub Actions workflow that runs unit tests and the repository checker.
+- [x] Run `python -m unittest discover -s tests -v` and `python scripts/check_readme_index.py`.
 
 ### Task 3: Publish
 
@@ -64,4 +64,3 @@
 - [ ] Commit all repository files on `main`.
 - [ ] Create the public GitHub repository and push `main`.
 - [ ] Verify remote URL, clean working tree, default branch, and public visibility.
-
